@@ -1,0 +1,33 @@
+{
+  "name": "<%= slugname %>",
+  "description": "<%= description %>",
+  "main": "js/lib/index.js",
+  "version": "0.0.1",
+  "author": {
+    "name": "<%= author %>",
+    "email": "<%= email %>",
+    "url": "<%= githubUrl %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<%= repoUrl %>"
+  },
+  "license": "<%= license %>",
+  "keywords": [
+    "<%= slugname %>"<% for (var i = 0; i < keywords.length; i++) { %>,
+    "<%= keywords[i] %>"<% } %>
+  ],
+  "scripts": {
+    "test": "npm i && ./node_modules/.bin/mocha -R spec js/tests/**/*.js",
+    "install": "cargo build --release --verbose"
+  },
+  "dependencies": {
+    "ffi": "^1.2.7",
+    "ref": "^1.0.1",
+    "ref-struct": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "mocha": "^2.2.1"
+  }
+}

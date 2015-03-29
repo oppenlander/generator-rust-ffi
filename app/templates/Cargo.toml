@@ -1,0 +1,13 @@
+[package]
+
+name = "<%= slugname %>"
+version = "0.0.1"
+authors = ["<%= author %> <<%= email %>>"]
+license = "<%= license %>"
+readme = "README.md"
+repository = "<%= repoUrl %>"
+description = "<%= description %>"
+
+[lib]
+name = "<%= slugname %>"
+crate-type = ["dylib"]
