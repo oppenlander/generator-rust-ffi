@@ -161,6 +161,7 @@ module.exports = yeoman.generators.Base.extend({
     projectFiles: function () {
       this.copy('editorconfig', '.editorconfig');
       this.copy('gitignore', '.gitignore');
+      this.copy('gitattributes', '.gitattributes');
       this.template('README.md');
     }
   },
