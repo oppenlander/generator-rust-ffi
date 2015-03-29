@@ -4,7 +4,9 @@ The Rust FFI generator is a yeoman generator for bootstraping [Rust](http://www.
 
 This project was inspired by [Zbigniew Siciarz's blog post on calling Rust from other languages](https://siciarz.net/24-days-of-rust-calling-rust-from-other-languages/).
 
-## Usage
+In order to use this properly, you will obviously need Rust installed. The current convention for this is to use the lastest Nightly Release. Instructions for this can be found in [the Rust Book](http://doc.rust-lang.org/book/installing-rust.html).
+
+## Install
 Install Yeoman (best when installed globally).
 ```bash
 npm install -g yo
@@ -24,6 +26,12 @@ Finally, initiate the generator.
 ```bash
 yo rust-ffi
 ```
+
+## Binding-Specific Install
+You will also need to install tools required by the bindings you create (obviously).
+
+### JavaScript (nodejs/io.js)
+You need to install a modern version of nodejs/io.js (v0.10+).
 
 ## License
 MIT
