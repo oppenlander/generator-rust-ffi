@@ -1,6 +1,6 @@
 {
   "name": "generator-rust-ffi",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
@@ -20,7 +20,9 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "rust",
+    "ffi"
   ],
   "dependencies": {
     "chalk": "^1.0.0",
