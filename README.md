@@ -1,7 +1,8 @@
 # Rust FFI Generator
 
-The Rust FFI generator is a generator for bootstraping [Rust](http://www.rust-lang.org/) libraries that expose Foreign Function Interface bindings into other languages (currently only NPM is supported).
+The Rust FFI generator is a yeoman generator for bootstraping [Rust](http://www.rust-lang.org/) libraries that expose Foreign Function Interface bindings for other languages (currently only NPM is supported).
 
+This project was inspired by [Zbigniew Siciarz's blog post on calling Rust from other languages](https://siciarz.net/24-days-of-rust-calling-rust-from-other-languages/).
 
 ## Usage
 Install Yeoman (best when installed globally).
