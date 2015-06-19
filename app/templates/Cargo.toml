@@ -10,4 +10,4 @@ description = "<%= description %>"
 
 [lib]
 name = "<%= slugname %>"
-crate-type = ["dylib"]
+crate-type = ["rlib", "dylib"]
